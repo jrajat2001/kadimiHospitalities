@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
+<!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="noIE" lang="en-US">
+<!--<![endif]-->
+	<head>
+		<!-- meta -->
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>Kadimi Hospitalities</title>
+<link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/ionicons.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/section.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109216089-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'UA-109216089-1');
+	</script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!--[if lt IE 9]>
+				<script src="assets/js/html5shiv.js"></script>
+				<script src="assets/js/respond.js"></script>
+			<![endif]-->
+
+			<!--[if IE 8]>
+		    	<script src="assets/js/selectivizr.js"></script>
+		    <![endif]-->
+	<script
+		src="http://maps.googleapis.com/maps/api/js">
+	</script>
+</head>
+<body>
+<div class="headerContainer" style="background-color:green">
+			<div class="row" >
+				<div class=" col-sm-offset-4 col-sm-3" >
+					<div class="text-left">
+						<b style="display:inline-flex"><i class="ion-email"></i>&nbsp;sales@kadimihospitalities.com</b>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<b><i class="ion-ios-telephone"></i> +91 95401 64384</b>
+				</div>		
+			</div>
+		</div>	
+		
+		
+<!-- Home -->
+	<section class="header">
+		<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <img src="assets/images/logos/logo.png" alt="visit-image" class="img-responsive visit-item logo">
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">HOME</a></li>
+	  <li><a href="about.html">ABOUT US</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">HOTELS IN INDIA<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="goa.html">GOA</a></li>
+          <li><a href="alwar.html">ALWAR</a></li>
+          <li><a href="jaipur.html">JAIPUR</a></li>
+		  <li><a href="corbett.html">JIM CORBETT</a></li>
+		  <li><a href="kasauli.html">KASAULI</a></li>
+		  <li><a href="sariska.html">SARISKA</a></li>
+        </ul>
+      </li>
+	  <li><a href="deal.html">DEAL OF THE DAY</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+    </ul>
+  </div>
+</nav>
+	</section> <!-- /#header -->
+
+<!-- Section Background -->
+	<section class="section-background">
+		<div class="container">
+			<h2 class="page-header">
+				get in touch with us
+			</h2>
+			<ol class="breadcrumb">
+				<li><a href="index.html">Home</a></li>
+				<li class="active">&nbsp;contact</li>
+			</ol>
+		</div> <!-- /.container -->
+	</section>
+  
+<div style="color:black; margin: 90px;">
+<!-- START HERE -->
+   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <!-- Style The Contact Form How Ever You Prefer -->
+   
+
+  <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbyBMovyvRgiiKo2dqgQpfRa2OqYHmCiFhVIYF_lFSFKnqfdqfA/exec">
+    <!-- change the form action to your script url -->
+
+    <fieldset class="pure-group">
+      <label for="name">Name: </label>
+      <input id="name" name="name" placeholder="" />
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="message">Message: </label>
+      <textarea id="message" name="message" rows="10"
+      placeholder="Add information about resort interested..."></textarea>
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="email">Your Email Address:</label>
+      <input id="email" name="email" type="email" value=""
+      required placeholder="your.name@email.com"/>
+      <span id="email-invalid" style="display:none">
+        Must be a valid email address</span>
+    </fieldset>
+
+     <button class="button-success pure-button button-xlarge">
+      <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+  </form>
+</div>
+  <div style="color:black; margin: 90px;">
+  
+  <div style="display:none;" id="thankyou_message">
+		<h2>Thanks for contacting us!
+      We will get back to you soon!</h2>
+	</div>
+	</div>
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+  <!-- <script data-cfasync="false" type="text/javascript"
+  src="/form-submission-handler.js"></script> -->
+<!-- END -->
+<section class="contacts section-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="contact">
+						<div class="contact-icon">
+							<i class="ion-android-map"></i>
+						</div>
+						<div class="contact-name">
+							Address
+						</div>
+						<div class="contact-detail">
+							C5A Kadimi Market, Janak Puri<br>
+							New Delhi, India 110058
+
+						</div>
+					</div> <!-- /.contact -->
+				</div> <!-- /.col-sm-4 -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<div class="contact-icon">
+							<i class="ion-ios-telephone"></i>
+						</div>
+						<div class="phone-name">
+							NEED HELP?
+						</div>
+						<div class="phone-detail">
+							+91 95401 64384 <br>							
+						</div>
+						<div class="contact-detail">
+							Monday to Saturday 10.00am - 7.00pm
+						</div>
+						
+					</div> <!-- /.contact -->
+				</div> <!-- /.col-sm-4 -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<div class="contact-icon">
+							<i class="ion-email"></i>
+						</div>
+						<div class="contact-name">
+							Email Address
+						</div>
+						<div class="contact-detail">
+							sales@kadimihospitalities.com  kadimihospitalities@gmail.com <br>
+							
+						</div>
+					</div> <!-- /.contact -->
+				</div> <!-- /.col-sm-4 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</section> <!-- /.contacts -->
+ 
+	<div class="subscribe section-wrapper">
+		<a class="brand-logo" href="index.html" title="HOME"><i class="ion-paper-airplane"></i> Kadimi <span>Hospitalities</span></a>
+	</div>
+					
+	<ul class="social-icon">
+		<li><a href="https://twitter.com/Kadimi123"><i class="ion-social-twitter"></i></a></li>
+		<li><a href="https://www.facebook.com/Kadimihospitalities/"><i class="ion-social-facebook"></i></a></li>		
+	</ul>
+	</div>
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4"  style="float: right">
+					 <div class="top">
+						<a href="#header">
+							<i class="ion-arrow-up-b"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</footer>
+
+</body>
+</html>

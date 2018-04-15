@@ -1,0 +1,102 @@
+.section-background{
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	background: url('../images/section-header.png');
+	text-align: center;
+	background-size: cover;
+}
+.page-header{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 200;
+	border-bottom: none;
+    padding-top: 85px;
+    padding-bottom: 40px;
+    font-size: 34px;
+}
+.breadcrumb{
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0px;
+}
+.breadcrumb .active{
+	color: #fff;
+}
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #fff;
+    content: "\f3d3";
+    font-family: "ionicons";
+}
+.breadcrumb a{
+	color: #fff;
+	border: 1px solid transparent;
+	text-decoration: none;
+	padding: 5px;
+}
+.breadcrumb a:hover{
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.sariskaBG{
+	background: url('../images/bg/sariskaBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
+
+.kasauliBG{
+	background: url('../images/bg/kasauliBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
+
+.goaBG{
+	background: url('../images/bg/goaBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
+
+.alwarBG{
+	background: url('../images/bg/alwarBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
+
+.corbettBG{
+	background: url('../images/bg/corbettBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
+
+.jaipurBG{
+	background: url('../images/bg/jaipurBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
