@@ -100,3 +100,43 @@
 	text-align: center;
 	background-size: cover;
 }
+
+.dharamshalaBG{
+	background: url('../images/bg/dharamshalaBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
+
+.dalhousieBG{
+	background: url('../images/bg/dalhousieBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
+
+.mussoorieBG{
+	background: url('../images/bg/mussoorieBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
+
+.nainitalBG{
+	background: url('../images/bg/nainitalBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
