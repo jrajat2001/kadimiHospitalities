@@ -140,3 +140,13 @@
 	text-align: center;
 	background-size: cover;
 }
+
+.singaporeBG{
+	background: url('../images/bg/singaporeBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
