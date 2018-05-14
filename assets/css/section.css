@@ -150,3 +150,52 @@
 	text-align: center;
 	background-size: cover;
 }
+
+.pattayaBG{
+	background: url('../images/bg/pattayaBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
+
+.bangkokBG{
+	background: url('../images/bg/bangkokBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
+.dubaiBG{
+	background: url('../images/bg/dubaiBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
+
+.malaysiaBG{
+	background: url('../images/bg/malaysiaBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
+
+.mauritiusBG{
+	background: url('../images/bg/mauritiusBG.jpg');	
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	text-align: center;
+	background-size: cover;
+}
